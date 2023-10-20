@@ -1,0 +1,49 @@
+/* #91972A */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+.one{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    background-color: #91972A;
+    max-width: 1000px;
+    height: 500px;
+    margin: 7% auto;
+    font-weight:bold;
+    border-radius: 12px;
+
+ }
+ .logo{
+    font-weight:bold;
+    font-family: 'Caveat', cursive;
+    font-size:7rem;
+    text-anchor:middle;
+    dominant-baseline:middle;
+    stroke:white;
+    stroke-width: 2;
+    animation:show 7s ease-in-out infinite alternate; 
+  }
+  .link{
+    border:2px solid white;
+    background:none;
+    padding:20px 40px;
+    font-size:32px;
+    border-radius:8px;
+    font-family: 'Caveat', cursive;
+}
+
+@keyframes show{
+  0% ,10% {
+    fill: transparent;
+    stroke-dasharray: 0% 100%;
+  }
+   70% {
+    stroke-dasharray: 100% 0%;
+    stroke-opacity: 1;
+    fill: transparent;
+    }
+   80%, 100%{
+     stroke-opacity: 0;
+     fill:white;
+     }
+   }
