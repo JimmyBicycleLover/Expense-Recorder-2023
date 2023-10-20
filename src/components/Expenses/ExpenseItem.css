@@ -21,14 +21,14 @@
     font-size: 1.5rem;
     flex: 1;
     margin: 0 1rem;
-    color: #FF6B6C;
+    color: #91972A;
 }
 
 .expense-item__price {
     font-size: 1rem;
     font-weight: bold;
     color: white;
-    background-color: #5B5F97;
+    background-color: #91972A;
     border: 1px solid white;
     padding: 0.5rem;
     border-radius: 12px;
